@@ -1,0 +1,32 @@
+## Findings & Recommendations for Used Car Dealers
+
+### What We Did
+We analyzed 111,000 used car listings and built regression models to identify 
+which features most strongly predict price. We used Ridge Regression as our 
+final model (RMSE: 0.5915 on a log scale).
+
+### Key Findings
+
+**What makes a car worth MORE:**
+- **Condition** — Cars listed as "new" or "like new" command significantly higher prices. 
+  Condition is one of the strongest predictors of value.
+- **Luxury/rare manufacturers** — Ferrari, Aston-Martin, Porsche, and Tesla 
+  carry large price premiums.
+- **More cylinders** — 12-cylinder engines are associated with higher prices.
+- **Clean title** — Title status has a strong impact on perceived value.
+
+**What makes a car worth LESS:**
+- **Salvage condition** — The single biggest price killer. Avoid salvage-title inventory 
+  unless buying at deep discount.
+- **Fair condition** — Also significantly depresses price.
+- **Parts-only title** — Near-worthless from a retail standpoint.
+- **Certain manufacturers** — Saturn, Mercury, and Fiat are associated with lower prices.
+
+### Recommendations
+1. **Prioritize clean-title, good-to-excellent condition vehicles** — condition 
+   is the #1 controllable factor in your inventory.
+2. **Avoid salvage and parts-only titles** — they are very hard to sell at fair margin.
+3. **Stock luxury and performance brands where possible** — they hold value well 
+   and attract higher-margin sales.
+4. **Age and mileage matter** — newer, lower-odometer cars consistently price higher. 
+   Focus sourcing on vehicles under 10 years old with under 100,000 miles.
